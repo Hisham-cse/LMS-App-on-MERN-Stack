@@ -1,8 +1,8 @@
 import jwt from "jsonwebtoken";
-import { User } from "../models/user.model";
+import { User } from "../models/user.model.js";
 
 export const generateToken = (res, req) => {
-  const token = jwt.sign({ userid: user._id }, process.env.SECRET_KEY, {
+  const token = jwt.sign({ userId: user._id }, process.env.SECRET_KEY, {
     expiresIn: "1d",
   });
   return res
