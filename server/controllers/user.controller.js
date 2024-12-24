@@ -17,11 +17,11 @@ export const register = async (req,res) => {
                 message:"User already exist with this email"
             })
         }
-        const hashedPassword = await bcrypt.hash(password,10)
+        const hashedPassword = await bcrypt.hash(password,10);
         await User.create({
             name,
             email,
-            password
+            password:hashedPassword
         })
         return res.status(201).json({
             success:true,
