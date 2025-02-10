@@ -101,8 +101,8 @@ npm run dev</code></pre>
 <h2 id="contact">Contact</h2>
 <p>For questions or inquiries, please contact us at:</p>
 <ul>
-    <li><strong>Email:</strong> contact@lmsapp.com</li>
-    <li><strong>Twitter:</strong> <a href="https://twitter.com/LMSApp">@LMSApp</a></li>
+    <li><strong>Email:</strong> muhammadhisham305@gmail.com</li>
+    
 </ul>
 
 </body>
