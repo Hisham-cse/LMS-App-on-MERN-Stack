@@ -135,7 +135,7 @@ npm run dev</code></pre>
 <h2 id="contact">Contact</h2>
 <p>For questions or inquiries, please contact:</p>
 <ul>
-    <li><strong>Email:</strong> muhammadhisham305@gmail.com</li>
+    <li><strong>Email:</strong><a href="LICENSE"> muhammadhisham305@gmail.com</a></li>
 </ul>
 
 </body>
